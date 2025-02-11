@@ -131,6 +131,8 @@ a {
 }
 .section-title {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .page-title {
@@ -143,8 +145,6 @@ a {
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
-  padding-top: 188px;
-  padding-bottom: 292px;
 }
 
 .page-button {
@@ -156,9 +156,9 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
   padding: 16px 32px;
+  border-radius: 4px;
   display: block;
   margin: 0 auto;
-  border-radius: 4px;
 }
 
 .page-button:hover {
@@ -173,8 +173,14 @@ a {
   background-color: #ffffff;
   padding-top: 120px;
   padding-bottom: 120px;
+  width: calc((100%-72px) / 4);
 }
 
+.advant-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 .section-advant .advant-title {
   font-weight: 500;
   font-size: 20px;
