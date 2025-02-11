@@ -3,12 +3,48 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+}
 a {
   text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  min-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-nav .logo {
@@ -25,7 +61,7 @@ a {
   color: #2e2f42;
 }
 
-.page-nav .link {
+.page-nav .item-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -34,14 +70,14 @@ a {
   background-color: #ffffff;
 }
 
-.page-nav .link:hover {
+.page-nav .item-link:hover {
   color: #404bbf;
 }
 
-.page-nav .link:focus {
+.page-nav .item-link:focus {
   color: #404bbf;
 }
-.page-nav .link:active {
+.page-nav .item-link:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -73,7 +109,13 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
+
 .page-button {
   font-weight: 500;
   font-size: 16px;
@@ -82,6 +124,10 @@ a {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  padding: 16px 32px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .page-button:hover {
@@ -94,6 +140,8 @@ a {
 
 .section-advant {
   background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-advant .advant-title {
   font-weight: 500;
@@ -101,6 +149,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section-advant .advant-text {
@@ -111,6 +160,8 @@ a {
 }
 .team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .title {
   font-weight: 700;
@@ -144,6 +195,8 @@ a {
 
 .portfolio {
   background: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio .portfolio-title {
@@ -163,6 +216,10 @@ a {
 .footer {
   background: #2e2f42;
 }
+
+.footer-conteiner {
+  padding: 100px 1020px 100px 156px;
+}
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -181,4 +238,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+  margin-top: 16px;
 }
