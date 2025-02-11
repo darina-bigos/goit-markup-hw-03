@@ -143,6 +143,7 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .section-advant .advant-title {
   font-weight: 500;
   font-size: 20px;
@@ -163,6 +164,12 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.title-team {
+  min-width: 162 px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -199,6 +206,11 @@ a {
   padding-bottom: 120px;
 }
 
+.title-portfolio {
+  min-width: 218px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
 .portfolio .portfolio-title {
   font-weight: 500;
   font-size: 20px;
