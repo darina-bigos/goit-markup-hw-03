@@ -13,10 +13,11 @@ h5,
 h6 {
   margin: 0;
 }
-ul {
+ul,
+ol {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 img {
   display: block;
@@ -40,11 +41,36 @@ a {
   overflow: hidden;
 }
 .container {
-  min-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.item-address {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .page-nav .logo {
@@ -62,6 +88,8 @@ a {
 }
 
 .page-nav .item-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -83,8 +111,11 @@ a {
 }
 .page-adress {
   font-style: normal;
+  margin-left: auto;
 }
 .page-adress .link-adress {
+  display: block;
+  padding: 24px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -229,9 +260,6 @@ a {
   background: #2e2f42;
 }
 
-.footer-conteiner {
-  padding: 100px 1020px 100px 156px;
-}
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -250,6 +278,4 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
-  margin-top: 16px;
 }
