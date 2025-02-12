@@ -225,6 +225,13 @@ a {
   display: flex;
   gap: 24px;
 }
+
+.team-box {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .list-name {
   padding: 32px 0;
 }
@@ -245,21 +252,16 @@ a {
   color: #2e2f42;
 }
 
-.team-box {
-  background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
-}
-
-.team .name-team {
+.name-team {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
-.team .text-team {
+.text-team {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
