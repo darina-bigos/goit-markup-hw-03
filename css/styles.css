@@ -226,7 +226,7 @@ a {
   align-items: center;
   gap: 24px;
 }
-.cont-name {
+.list-name {
   padding: 32px 0;
 }
 
@@ -250,9 +250,7 @@ a {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
 }
-.name-team {
-  margin-bottom: 8px;
-}
+
 .team .name-team {
   font-weight: 500;
   font-size: 20px;
@@ -260,6 +258,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team .text-team {
   font-size: 16px;
