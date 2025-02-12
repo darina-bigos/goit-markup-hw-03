@@ -221,9 +221,8 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.team-container {
+.item-team {
   display: flex;
-  justify-content: center;
   gap: 24px;
 }
 
